@@ -18,7 +18,7 @@ class Form {
             player.updateplayercount(0);
         Player.updateplayersFinished(0);
         player.updateplayer(0);
-        player.updategameState(0);
+        game.updategameState(0);
 
 
         })

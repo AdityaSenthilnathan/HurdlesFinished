@@ -61,7 +61,7 @@ class Game{
         if(player.index != null && person != null){
         for (var i = 0; i < hurdles.sprites.length; i++) {
             if (person.isTouching(hurdles.sprites[i])){
-                playerGameState = 1;
+                gameState = 4;
             }
 
         }
